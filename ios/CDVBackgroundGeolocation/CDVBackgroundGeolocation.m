@@ -485,9 +485,9 @@ static NSString * const TAG = @"CDVBackgroundGeolocation";
     {
         // Give other delegates (like FCM) the chance to process this notification
 
-        [prevNotificationDelegate userNotificationCenter:center willPresentNotification:notification withCompletionHandler:^(UNNotificationPresentationOptions options) {
-            completionHandler(UNNotificationPresentationOptionAlert);
-        }];
+        //[prevNotificationDelegate userNotificationCenter:center willPresentNotification:notification withCompletionHandler:^(UNNotificationPresentationOptions options) {
+            //completionHandler(UNNotificationPresentationOptionAlert);
+        //}];
     }
     else
     {
